@@ -11,43 +11,49 @@ class LeagueTable
 
   def get_points(team_name)
     team = get_team(team_name)
-    team.points
+    team[:points]
   end
 
   def get_goals_for(team_name)
     team = get_team(team_name)
-    team.goals
+    team[:goals]
   end
 
   def get_goals_against(team_name)
     team = get_team(team_name)
-    team.goals_against
+    team[:goals_against]
   end
 
   def get_wins(team_name)
     team = get_team(team_name)
-    team.wins
+    team[:wins]
   end
 
   def get_draws(team_name)
     team = get_team(team_name)
-    team.draws
+    team[:draws]
   end
 
   def get_losses(team_name)
     team = get_team(team_name)
-    team.loses
+    team[:losses]
   end
 
-  def get_goals_difference(team_name)
+  def get_goal_difference(team_name)
     team = get_team(team_name)
-    team.goals + team.goals_against
+    team[:goals] + team[:goals_against]
   end
 
   private
 
   def get_team(team_name)
-    team = @matches.team_list.select { |team| team.name == team_name }.first
+    team = @matches.team_list[team_name]
+    !team.nil? ? team : set_team(team_name)
+  end
+
+  def set_team(team_name)
+    @matches.add_team(team_name)
+    get_team(team_name)
   end
 
 end
