@@ -23,6 +23,17 @@ RSpec.describe LeagueTable do
     end
   end
 
+  context 'see matches played' do
+    let(:league) { LeagueTable.new }
+
+    it 'shows matches played' do
+      league.add_match('Yaki-Taki 3 - 1 Liverpool')
+      league.add_match('Yaki-Taki 3 - 1 Man Utd')
+
+      expect(league.matches).to eq(['Yaki-Taki 3 - 1 Liverpool', 'Yaki-Taki 3 - 1 Man Utd'])
+    end
+  end
+
   context 'single win or lose match' do
     let(:league_single) { LeagueTable.new }
 
@@ -163,17 +174,5 @@ RSpec.describe LeagueTable do
       expect(no_matches_league.get_losses('Tottenham')).to eq(0)
     end
 
-  end
-
-  context 'raise error' do
-    let(:league) { LeagueTable.new }
-
-    it 'invalid input format error for non string input' do
-      expect{ league.add_match(1111) }.to raise_error(InvalidInputFormat, 'Input format has to be like this: "Home Team 0 - 0 Away Team"')
-    end
-
-    it 'invalid input format error for wrong format' do
-      expect{ league.add_match('1 Yaki-Taki - Mtd 0') }.to raise_error(InvalidInputFormat, 'Input format has to be like this: "Home Team 0 - 0 Away Team"')
-    end
   end
 end

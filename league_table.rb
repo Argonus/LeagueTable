@@ -1,21 +1,18 @@
 require_relative 'team_list'
-require_relative 'invalid_input_format'
-
 
 class LeagueTable
+  attr_reader :matches
+
   METHODS = %w(points wins draws losses goals_against)
-  PATTERN = /.+\s\d+\s-\s\d+\s.+/
 
   def initialize
+    @matches    = []
     @teams_list = TeamList.new
   end
 
   def add_match(info)
-    if info.is_a?(String) && PATTERN.match(info)
-      @teams_list.push(info)
-    else
-      raise InvalidInputFormat
-    end
+    @matches << info
+    @teams_list.collect_info(info)
   end
 
   def get_goals_for(team_name)

@@ -5,7 +5,7 @@ class TeamList
     @teams = {}
   end
 
-  def push(match_info)
+  def collect_info(match_info)
     info = match_info.split(/\s-\s/)
     set_match_result(info)
   end
