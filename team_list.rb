@@ -25,14 +25,14 @@ class TeamList
 
   def set_match_score(two_teams)
     if two_teams[0][1] > two_teams[1][1]
-      @team_list << Team.new(two_teams[0][0], two_teams[0][1], 3)
-      @team_list << Team.new(two_teams[1][0], two_teams[1][1])
+      @team_list << Team.new(two_teams[0][0], two_teams[0][1], 3, 1, 0, 0, -two_teams[1][1])
+      @team_list << Team.new(two_teams[1][0], two_teams[1][1], 0, 0, 0, 1, -two_teams[0][1])
     elsif two_teams[0][1] < two_teams[1][1]
-      @team_list << Team.new(two_teams[0][0], two_teams[0][1])
-      @team_list << Team.new(two_teams[1][0], two_teams[1][1], 0)
+      @team_list << Team.new(two_teams[0][0], two_teams[0][1], 0, 0, 0, 1, -two_teams[1][1])
+      @team_list << Team.new(two_teams[1][0], two_teams[1][1], 3, 1, 0, 0, -two_teams[0][1])
     else
-      @team_list << Team.new(two_teams[0][0], two_teams[0][1], 1)
-      @team_list << Team.new(two_teams[1][0], two_teams[1][1], 1)
+      @team_list << Team.new(two_teams[0][0], two_teams[0][1], 1, 0, 1, 0, -two_teams[1][1])
+      @team_list << Team.new(two_teams[1][0], two_teams[1][1], 1, 0, 1, 0, -two_teams[0][1])
     end
   end
 
