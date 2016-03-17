@@ -9,12 +9,12 @@ class LeagueTable
 
   def get_points(team_name)
     team = @matches.team_list.select{|team| team.name == team_name}.first
-    puts team.inspect
     team.points
   end
 
   def get_goals_for(team_name)
-
+    team = @matches.team_list.select{|team| team.name == team_name}.first
+    team.goals
   end
 
 

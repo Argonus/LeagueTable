@@ -14,8 +14,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team__LeagueTable.coverage" NAME="LeagueTable get points for existing team: LeagueTable Coverage Results" MODIFIED="1458217688625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_single_win_lose_match_single_draw_match__LeagueTable.coverage" NAME="LeagueTable single win/lose match single draw match: LeagueTable Coverage Results" MODIFIED="1458219071980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team_get_points_for_team_with_single_match__LeagueTable.coverage" NAME="LeagueTable get points for existing team get points for team with single match: LeagueTable Coverage Results" MODIFIED="1458218329137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team__LeagueTable.coverage" NAME="LeagueTable get points for existing team: LeagueTable Coverage Results" MODIFIED="1458218433602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team_get_points_for_team__LeagueTable.coverage" NAME="LeagueTable get points for existing team get points for team: LeagueTable Coverage Results" MODIFIED="1458216725367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_single_win_lose_match__LeagueTable.coverage" NAME="LeagueTable single win/lose match: LeagueTable Coverage Results" MODIFIED="1458219093881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable__LeagueTable.coverage" NAME="LeagueTable: LeagueTable Coverage Results" MODIFIED="1458219136999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,27 +44,27 @@
         <entry file="file://$PROJECT_DIR$/league_table.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team_list.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="team_list.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team_list.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6967742">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="team.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.46451613">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/spec/league_table_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -89,11 +93,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/league_table_spec.rb" />
         <option value="$PROJECT_DIR$/matches_list.rb" />
         <option value="$PROJECT_DIR$/league_table.rb" />
-        <option value="$PROJECT_DIR$/team.rb" />
         <option value="$PROJECT_DIR$/team_list.rb" />
+        <option value="$PROJECT_DIR$/spec/league_table_spec.rb" />
+        <option value="$PROJECT_DIR$/team.rb" />
       </list>
     </option>
   </component>
@@ -175,7 +179,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
-  <component name="RunManager" selected="RSpec.LeagueTable get points for existing team: LeagueTable">
+  <component name="RunManager" selected="RSpec.LeagueTable: LeagueTable">
     <configuration default="false" name="LeagueTable get points for existing team: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="LeagueTable" />
@@ -209,7 +213,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="LeagueTable get points for existing team get points for team: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="LeagueTable get points for existing team get points for team with single match: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="LeagueTable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -231,7 +235,106 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/league_table_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeagueTable get points for existing team get points for team" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeagueTable get points for existing team get points for team with single match" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeagueTable: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="LeagueTable" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/league_table_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeagueTable" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeagueTable single win/lose match: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="LeagueTable" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/league_table_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeagueTable single win/lose match" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeagueTable single win/lose match single draw match: LeagueTable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="LeagueTable" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/league_table_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeagueTable single win/lose match single draw match" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -365,14 +468,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team: LeagueTable" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team get points for team: LeagueTable" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team get points for team with single match: LeagueTable" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.LeagueTable: LeagueTable" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match: LeagueTable" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match single draw match: LeagueTable" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team: LeagueTable" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team get points for team: LeagueTable" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.LeagueTable: LeagueTable" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match: LeagueTable" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match single draw match: LeagueTable" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team: LeagueTable" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.LeagueTable get points for existing team get points for team with single match: LeagueTable" />
       </list>
     </recent_temporary>
   </component>
@@ -387,35 +496,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 09m 09s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 43m 36s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 18m 13s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 46m 00s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 24m 32s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 47m 01s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 25m 02s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 47m 21s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 25m 42s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 52m 07s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 26m 16s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 13h 52m 17s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 27m 11s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable_single_win_lose_match__LeagueTable - 2016.03.17 at 13h 49m 11s.xml">
+      <configuration name="LeagueTable single win/lose match: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 27m 35s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable_single_win_lose_match__LeagueTable - 2016.03.17 at 13h 51m 34s.xml">
+      <configuration name="LeagueTable single win/lose match: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team__LeagueTable - 2016.03.17 at 13h 28m 09s.xml">
-      <configuration name="LeagueTable get points for existing team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable_single_win_lose_match_single_draw_match__LeagueTable - 2016.03.17 at 13h 50m 32s.xml">
+      <configuration name="LeagueTable single win/lose match single draw match: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_get_points_for_existing_team_get_points_for_team__LeagueTable - 2016.03.17 at 13h 12m 05s.xml">
-      <configuration name="LeagueTable get points for existing team get points for team: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable_single_win_lose_match_single_draw_match__LeagueTable - 2016.03.17 at 13h 51m 12s.xml">
+      <configuration name="LeagueTable single win/lose match single draw match: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -429,7 +538,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25849336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -449,6 +558,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/team_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/league_table_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -460,31 +585,15 @@
     <entry file="file://$PROJECT_DIR$/league_table.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/league_table_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6967742">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.46451613">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
