@@ -14,14 +14,14 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeagueTable@Run_spec__league_table_spec___LeagueTable.coverage" NAME="Run spec 'league_table_spec': LeagueTable Coverage Results" MODIFIED="1458220168067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@Run_spec__league_table_spec___LeagueTable.coverage" NAME="Run spec 'league_table_spec': LeagueTable Coverage Results" MODIFIED="1458221772738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_single_win_lose_match_single_draw_match__LeagueTable.coverage" NAME="LeagueTable single win/lose match single draw match: LeagueTable Coverage Results" MODIFIED="1458219071980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team_get_points_for_team_with_single_match__LeagueTable.coverage" NAME="LeagueTable get points for existing team get points for team with single match: LeagueTable Coverage Results" MODIFIED="1458218329137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team__LeagueTable.coverage" NAME="LeagueTable get points for existing team: LeagueTable Coverage Results" MODIFIED="1458218433602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_get_points_for_existing_team_get_points_for_team__LeagueTable.coverage" NAME="LeagueTable get points for existing team get points for team: LeagueTable Coverage Results" MODIFIED="1458216725367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_single_draw_match_get_number_of_draws__LeagueTable.coverage" NAME="LeagueTable single draw match get number of draws: LeagueTable Coverage Results" MODIFIED="1458220319320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
     <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable_single_win_lose_match__LeagueTable.coverage" NAME="LeagueTable single win/lose match: LeagueTable Coverage Results" MODIFIED="1458219669390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
-    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable__LeagueTable.coverage" NAME="LeagueTable: LeagueTable Coverage Results" MODIFIED="1458221394774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
+    <SUITE FILE_PATH="coverage/LeagueTable@LeagueTable__LeagueTable.coverage" NAME="LeagueTable: LeagueTable Coverage Results" MODIFIED="1458221809318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeagueTable" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/league_table.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="23" />
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="league_table_single_match_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/league_table_single_match_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11612903">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.57419354">
+              <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -97,9 +97,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/matches_list.rb" />
         <option value="$PROJECT_DIR$/spec/league_table_spec.rb" />
-        <option value="$PROJECT_DIR$/league_table.rb" />
         <option value="$PROJECT_DIR$/team_list.rb" />
         <option value="$PROJECT_DIR$/team.rb" />
+        <option value="$PROJECT_DIR$/league_table.rb" />
         <option value="$PROJECT_DIR$/spec/league_table_single_match_spec.rb" />
       </list>
     </option>
@@ -481,8 +481,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.LeagueTable: LeagueTable" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.LeagueTable single draw match get number of draws: LeagueTable" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'league_table_spec': LeagueTable" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'league_table_spec': LeagueTable" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.LeagueTable single draw match get number of draws: LeagueTable" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match: LeagueTable" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.LeagueTable single win/lose match single draw match: LeagueTable" />
       </list>
@@ -499,12 +499,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 14m 51s.xml">
-      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 15m 22s.xml">
-      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 15m 57s.xml">
       <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -526,8 +520,14 @@
     <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 29m 55s.xml">
       <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="LeagueTable_single_draw_match_get_number_of_draws__LeagueTable - 2016.03.17 at 14h 11m 59s.xml">
-      <configuration name="LeagueTable single draw match get number of draws: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 35m 28s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LeagueTable__LeagueTable - 2016.03.17 at 14h 36m 49s.xml">
+      <configuration name="LeagueTable: LeagueTable" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec__league_table_spec___LeagueTable - 2016.03.17 at 14h 36m 13s.xml">
+      <configuration name="Run spec 'league_table_spec': LeagueTable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -541,7 +541,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25849336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -561,26 +561,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/team_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/league_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -593,10 +577,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/league_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/league_table_single_match_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11612903">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.57419354">
+          <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
           <folding />
         </state>
       </provider>

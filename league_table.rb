@@ -39,6 +39,11 @@ class LeagueTable
     team.loses
   end
 
+  def get_goals_difference(team_name)
+    team = get_team(team_name)
+    team.goals + team.goals_against
+  end
+
   private
 
   def get_team(team_name)

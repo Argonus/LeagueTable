@@ -60,13 +60,23 @@ RSpec.describe LeagueTable do
       end
     end
 
-    context 'get number of goals_against' do
+    context 'get number of goals against' do
       it 'for  winning team' do
         expect(league_single.get_goals_against('Man Utd')).to eq(-1)
       end
 
       it 'for losing team' do
         expect(league_single.get_goals_against('Liverpool')).to eq(-3)
+      end
+    end
+
+    context 'get number of goals difference' do
+      it 'for  winning team' do
+        expect(league_single.get_goals_difference('Man Utd')).to eq(2)
+      end
+
+      it 'for losing team' do
+        expect(league_single.get_goals_difference('Liverpool')).to eq(-2)
       end
     end
 
@@ -136,6 +146,16 @@ RSpec.describe LeagueTable do
 
       it 'for second team' do
         expect(league_single_draw.get_goals_against('Liverpool')).to eq(-2)
+      end
+    end
+
+    context 'get number of goals difference' do
+      it 'for  winning team' do
+        expect(league_single_draw.get_goals_difference('Man Utd')).to eq(0)
+      end
+
+      it 'for losing team' do
+        expect(league_single_draw.get_goals_difference('Liverpool')).to eq(0)
       end
     end
   end
