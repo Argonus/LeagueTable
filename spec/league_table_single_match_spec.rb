@@ -3,6 +3,23 @@ require 'spec_helper'
 
 RSpec.describe LeagueTable do
 
+  context 'push team with' do
+    let(:league) { LeagueTable.new }
+
+    it 'typical team' do
+      league.matches.push('Man Utd 3 - 1 Liverpool')
+
+      expect(league.matches.team_list.has_key?('Man Utd')).to be_truthy
+    end
+
+    it 'name with - between words' do
+      league.matches.push('Yaki-Taki 3 - 1 Liverpool')
+
+      puts league.matches.team_list
+      expect(league.matches.team_list.has_key?('Yaki-Taki')).to be_truthy
+    end
+  end
+
   context 'single win or lose match' do
     let(:league_single) { LeagueTable.new }
 

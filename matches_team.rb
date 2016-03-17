@@ -1,4 +1,4 @@
-class TeamList
+class MatchesTeam
   attr_reader :team_list
 
   def initialize
@@ -6,7 +6,7 @@ class TeamList
   end
 
   def push(match_info)
-    info = match_info.split('-')
+    info = match_info.split(/\s-\s/)
     extract_team_result_info(info)
   end
 
@@ -19,7 +19,7 @@ class TeamList
   def extract_team_result_info(info)
     two_teams = []
     info.each do |team_info|
-      team_name = team_info.scan(/[a-zA-Z\s]/).join('').strip
+      team_name = team_info.scan(/[a-zA-Z\s-]/).join('').strip
       goals = team_info.scan(/\d+/).join('').to_i
       two_teams << [team_name, goals]
     end
