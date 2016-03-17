@@ -1,4 +1,4 @@
-require_relative 'matches_in_league'
+require_relative 'league_matches'
 
 class LeagueTable
   attr_reader :matches
@@ -6,7 +6,7 @@ class LeagueTable
   METHODS = %w(points wins draws losses goals_against)
 
   def initialize
-    @matches = MatchesInLeague.new
+    @matches = LeagueMatches.new
   end
 
   def get_goals_for(team_name)
