@@ -7,8 +7,9 @@ end
 
 RSpec.describe LeagueTable do
 
-  context 'push team with' do
+  context 'add team with' do
     let(:league) { LeagueTable.new }
+
 
     it 'typical team' do
       league.add_match('Man Utd 3 - 1 Liverpool')
