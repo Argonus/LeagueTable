@@ -1,4 +1,4 @@
-class MatchesTeam
+class MatchesInLeague
   attr_reader :team_list
 
   def initialize
