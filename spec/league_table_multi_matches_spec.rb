@@ -3,6 +3,17 @@ require_relative '../league_table'
 
 describe LeagueTable do
 
+  context 'see matches played' do
+    let(:league) { LeagueTable.new }
+
+    it 'shows matches played' do
+      league.add_match('Yaki-Taki 3 - 1 Liverpool')
+      league.add_match('Yaki-Taki 3 - 1 Man Utd')
+
+      expect(league.matches).to eq(['Yaki-Taki 3 - 1 Liverpool', 'Yaki-Taki 3 - 1 Man Utd'])
+    end
+  end
+
   context 'multi win or lose matches' do
     let!(:league) { LeagueTable.new }
 
