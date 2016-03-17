@@ -15,7 +15,6 @@ RSpec.describe LeagueTable do
     it 'name with - between words' do
       league.matches.push('Yaki-Taki 3 - 1 Liverpool')
 
-      puts league.matches.team_list
       expect(league.matches.team_list.has_key?('Yaki-Taki')).to be_truthy
     end
   end
