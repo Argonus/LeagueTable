@@ -7,10 +7,10 @@ describe LeagueTable do
     let!(:league) { LeagueTable.new }
 
     before(:each) do
-      league.matches.push('Man Utd 3 - 1 Liverpool')
-      league.matches.push('Liverpool 2 - 2 Man Utd')
-      league.matches.push('Man Utd 3 - 1 Tottenham')
-      league.matches.push('Liverpool 1 - 0 Tottenham')
+      league.add_match('Man Utd 3 - 1 Liverpool')
+      league.add_match('Liverpool 2 - 2 Man Utd')
+      league.add_match('Man Utd 3 - 1 Tottenham')
+      league.add_match('Liverpool 1 - 0 Tottenham')
     end
 
     context 'get points' do

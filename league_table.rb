@@ -1,12 +1,21 @@
-require_relative 'league_matches'
+require_relative 'team_list'
+require_relative 'invalid_input_format'
+
 
 class LeagueTable
-  attr_reader :matches
-
   METHODS = %w(points wins draws losses goals_against)
+  PATTERN = /.+\s\d+\s-\s\d+\s.+/
 
   def initialize
-    @matches = LeagueMatches.new
+    @teams_list = TeamList.new
+  end
+
+  def add_match(info)
+    if info.is_a?(String) && PATTERN.match(info)
+      @teams_list.push(info)
+    else
+      raise InvalidInputFormat
+    end
   end
 
   def get_goals_for(team_name)
@@ -29,12 +38,12 @@ class LeagueTable
   private
 
   def get_team(team_name)
-    team = @matches.team_list[team_name]
+    team = @teams_list.teams[team_name]
     !team.nil? ? team : create_team(team_name)
   end
 
   def create_team(team_name)
-    @matches.add_team(team_name)
+    @teams_list.add_team(team_name)
     get_team(team_name)
   end
 

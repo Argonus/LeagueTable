@@ -1,8 +1,8 @@
-class LeagueMatches
-  attr_reader :team_list
+class TeamList
+  attr_reader :teams
 
   def initialize
-    @team_list = {}
+    @teams = {}
   end
 
   def push(match_info)
@@ -45,7 +45,7 @@ class LeagueMatches
   end
 
   def update_or_create_team(team_name, points=0, goals=0, wins=0, draws=0, losses=0, goals_against=0)
-    if @team_list.has_key?(team_name)
+    if @teams.has_key?(team_name)
       update_team(team_name, points, goals, wins, draws, losses, goals_against)
     else
       create_team(team_name, points, goals, wins, draws, losses, goals_against)
@@ -53,14 +53,14 @@ class LeagueMatches
   end
 
   def create_team(team_name, points, goals, wins, draws, losses, goals_against)
-    @team_list.merge!({"#{team_name}" => {points: points,
-                                                 goals: goals, wins: wins, draws: draws,
-                                                 losses: losses, goals_against: goals_against}})
+    @teams.merge!({"#{team_name}" => {points: points,
+                                      goals: goals, wins: wins, draws: draws,
+                                      losses: losses, goals_against: goals_against}})
   end
 
   def update_team(team_name, *args)
-    @team_list[team_name].each_key.with_index do |k, i|
-      @team_list[team_name][k] += args[i]
+    @teams[team_name].each_key.with_index do |k, i|
+      @teams[team_name][k] += args[i]
     end
   end
 
